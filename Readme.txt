@@ -21,6 +21,8 @@ Cole dentro do arquivo de configurações que foi aberto.
 🛠️ 4. Instale as extensões recomendadas
 No terminal do VSCode, execute o comando abaixo para instalar todas as extensões necessárias:
 
+*Certifique-se de estar dentro da pasta clonada -> "configs-ide"*
+
 Get-Content extensions.txt | ForEach-Object { code --install-extension $_ }
 
 Isso garantirá que seu ambiente esteja completo, padronizado e otimizado para o desenvolvimento!
